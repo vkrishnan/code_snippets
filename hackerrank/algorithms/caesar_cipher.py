@@ -8,11 +8,11 @@ s = raw_input()
 k = int(raw_input())
 
 for ch in s:
-	if ch.islower():
-		index = (lowercase.index(ch) + k) % len(lowercase)
-		sys.stdout.write(lowercase[index])
-	elif ch.isupper():
-		index = (uppercase.index(ch) + k) % len(uppercase)
-		sys.stdout.write(uppercase[index])
-	else:
-		sys.stdout.write(ch)
+    if ch.islower():
+        index = (lowercase.index(ch) + k) % len(lowercase)
+        sys.stdout.write(lowercase[index])
+    elif ch.isupper():
+        index = (uppercase.index(ch) + k) % len(uppercase)
+        sys.stdout.write(uppercase[index])
+    else:
+        sys.stdout.write(ch)

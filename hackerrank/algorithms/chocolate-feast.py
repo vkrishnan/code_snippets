@@ -7,9 +7,9 @@ for i in range (0,T):
     wrappers = answer
 
     while wrappers >= C1:
-    	count = wrappers / C1
-    	answer += count
-    	wrappers = count + (wrappers % C1)
+        count = wrappers / C1
+        answer += count
+        wrappers = count + (wrappers % C1)
 
     # write code to compute answer
     print answer
